@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Auto Fill Security Code",
+  "version": "1.0",
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://hcr.adpolice.gov.ae/hcrhotels/signin.aspx?ReturnUrl=%2fhcrhotels%2fMain%2fdefault.aspx"],
+      "js": ["content.js"]
+    }
+  ]
+}
+
