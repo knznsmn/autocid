@@ -1,7 +1,7 @@
 window.addEventListener('load', function() {
-  document.getElementById('txtUsername').value = '';
+  document.getElementById('txtUsername').value = '48579886';
 
-  document.getElementById('txtPassword').value = '';
+  document.getElementById('txtPassword').value = 'ukwlmjpe';
 
   let securityCode = document.getElementById('Button3').value;
 
