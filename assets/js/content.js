@@ -21,9 +21,9 @@ function Login() {
 			document.getElementById('txtUsername').value = data.username;
 			document.getElementById('txtPassword').value = data.password;
 			document.getElementById('txtotp').value = document.getElementById('Button3').value;
-			// setTimeout(function (){
-			// 	document.getElementById('btnEng').click();
-			// }, 1000);
+			setTimeout(function (){
+				document.getElementById('btnEng').click();
+			}, 1000);
 		}
 		else {
 			msg.textContent = message.empty;
