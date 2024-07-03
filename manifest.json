@@ -1,20 +1,25 @@
 {
   "manifest_version": 3,
-  "name": "Auto Fill Security Code",
-  "version": "1.0",
+  "name": "FrontDesk AutoCID",
+  "version": "1.0.1",
+  "description": "A super basic extension that lets my colleagues type a little less and work more.",
   "permissions": [
-    "activeTab"
+    "activeTab",
+    "storage"
   ],
   "content_scripts": [
     {
-      "matches": ["https://hcr.adpolice.gov.ae/hcrhotels/signin.aspx"],
-      "js": ["content.js"]
+      "matches": ["https://hcr.adpolice.gov.ae/hcrhotels/*"],
+      "js": ["./assets/js/content.js"]
     }
   ],
+  "action": {
+    "default_popup": "popup.html"
+  },
   "icons": {
-    "16": "icon16.png",
-    "48": "icon48.png",
-    "128": "icon128.png"
+    "16": "./assets/img/icon16.png",
+    "48": "./assets/img/icon48.png",
+    "128": "./assets/img/icon128.png"
   }
 }
 
