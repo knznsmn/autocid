@@ -2,6 +2,15 @@
 ![banner.png](assets/img/banner.png) 
 The FrontDesk AutoCID Chrome extension assists CID encoders and hotel receptionists by automatically entering security codes into the CID website's login panel. This helps reduce the amount of typing required, allowing them to work more efficiently. If that makes sense. Like, at all.
 
+## Features:
+
+- One-Click Auto-Fill: Automatically fills in the security code with just one click, eliminating the need for manual entry.
+- User-Friendly Interface: Easy to use with a simple and intuitive design.
+- Enhanced Efficiency: Significantly reduces the time spent on repetitive tasks, allowing users to focus on more critical aspects of their work.
+- Error Reduction: Minimizes the risk of errors associated with manual input, ensuring accuracy and reliability.
+
+### Enhance Your Productivity:
+Say goodbye to tedious manual entry and hello to increased efficiency and accuracy with the FrontDesk AutoCID Extension. Perfect for professionals looking to optimize their workflow and minimize errors.
 
 ## How to Install:
 1. Go to the [repository](https://github.com/knznsmn/autocid). 
@@ -23,7 +32,8 @@ The FrontDesk AutoCID Chrome extension assists CID encoders and hotel receptioni
 
 
 
+
 To Do:
 
-- [ ] Prepare a manual on how to install this.
+- [x] Prepare a manual on how to install this.
 - [ ] Drink some coffee.
