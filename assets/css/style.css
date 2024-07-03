@@ -34,6 +34,14 @@ button:hover {
     cursor: pointer;
     background: linear-gradient(45deg, hsl(113, 8%, 73%) 40%, hsl(113, 10%, 51%) 100%);
 }
+a, a:active {
+    text-decoration: none;
+    color: hsl(113, 8%, 33%);
+}
+a:hover {
+    text-decoration: none;
+    color: hsl(113, 8%, 53%);
+}
 a img {
     margin: 5px;
     width: 30px;
